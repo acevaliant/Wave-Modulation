@@ -1074,7 +1074,7 @@ window.title("Modulation in a Communication System")
 window.geometry("1200x675")
 
 # Add image file
-bg = tk.PhotoImage(file=resource_path("bg.png"))
+bg = tk.PhotoImage(file=resource_path("background.png"))
 label = CTkLabel(window, image=bg, text="")
 label.place(x=0, y=0)
 
